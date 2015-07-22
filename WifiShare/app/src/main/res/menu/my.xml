@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/actionSetting"
+        android:title="SETTING"
+        android:orderInCategory="100"
+        android:icon="@drawable/setting"
+        android:showAsAction="always"
+        android:visible="false"/>
+    <item android:id="@+id/actionAccount"
+        android:title="ACCOUNT"
+        android:orderInCategory="0"
+        android:icon="@drawable/account"
+        android:showAsAction="always"/>
+</menu>
